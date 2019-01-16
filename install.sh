@@ -10,7 +10,7 @@ SCRIPT_PATH=$(cd `dirname "${BASH_SOURCE[0]}"` && pwd)
 
 # Install synatx highlight
 # ---------------------------------------------------\
-cp -r $SCRIPT_PATH/.nano ~/
+cp -r $SCRIPT_PATH/res/.nano ~/
 echo "include ~/.nano/syntax/ALL.nanorc" >> ~/.nanorc
 
 # Install config highlight
